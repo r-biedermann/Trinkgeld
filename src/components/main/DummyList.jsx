@@ -37,27 +37,27 @@ const Dummyist = [{
 }, {
     name: "Keanu Reeves",
     pictureURL: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg",
-    tipAmount: 10,
+    tipAmount: 2.50,
 }, {
     name: "Shary",
     pictureURL: "https://presse.wdr.de/plounge/_mdb_generated/presselounge2012/presselounge/bilder/2017/06/13/1_Shary_Reeves_Jochen_Manz_256.jpg",
-    tipAmount: 10,
+    tipAmount: 1,
 }, {
     name: "Aiman Abdallah",
     pictureURL: "https://www.muensterschezeitung.de/var/storage/images/wn/startseite/sport/weltsport/sonstige/3538034-qualifikation-zur-wm-2019-aiman-abdallah-moderiert-deutsche-rugby-wm-hoffnungsspiele/99203858-1-ger-DE/Qualifikation-zur-WM-2019-Aiman-Abdallah-moderiert-deutsche-Rugby-WM-Hoffnungsspiele_image_1024_width.jpg",
-    tipAmount: 10,
+    tipAmount: 1,
 }, {
     name: "Jahn Böhmermann",
     pictureURL: "https://images.derstandard.at/img/2020/09/05/bohmermann.jpg?w=750&s=b3f50675",
-    tipAmount: 10,
+    tipAmount: 1,
 }, {
     name: "Pablo Picasso",
     pictureURL: "https://upload.wikimedia.org/wikipedia/commons/9/98/Pablo_picasso_1.jpg",
-    tipAmount: 10,
+    tipAmount: 2.5,
 }, {
     name: "Neil Armstrong",
     pictureURL: "https://img.welt.de/img/vermischtes/mobile112442892/7242503027-ci102l-w1024/Jahresrueckblick-Todesfaelle-2012.jpg",
-    tipAmount: 10,
+    tipAmount: 5,
 }, 
 ]
 
