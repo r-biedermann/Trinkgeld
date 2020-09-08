@@ -1,4 +1,4 @@
-const Dummyist = [{
+const dummyList = [{
     name: 'Bill Gates',
     pictureURL: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg',
     tipAmount: 10,
@@ -20,10 +20,12 @@ const Dummyist = [{
     tipAmount: 1,
 }, {
     name: 'Lionel Messi',
+    // eslint-disable-next-line max-len
     pictureURL: 'https://www.grenzecho.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2020/07/03/node_38404/7662675/public/2020/07/03/B9723912505Z.1_20200703110919_000+G62G973GP.1-0.jpg?itok=CPVPfvTw1593767366',
     tipAmount: 1,
 }, {
     name: 'Joachim Löw',
+    // eslint-disable-next-line max-len
     pictureURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Jogi_L%C3%B6w_850_1386.jpg/1200px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Jogi_L%C3%B6w_850_1386.jpg',
     tipAmount: 1,
 }, {
@@ -44,6 +46,7 @@ const Dummyist = [{
     tipAmount: 1,
 }, {
     name: 'Aiman Abdallah',
+    // eslint-disable-next-line max-len
     pictureURL: 'https://www.muensterschezeitung.de/var/storage/images/wn/startseite/sport/weltsport/sonstige/3538034-qualifikation-zur-wm-2019-aiman-abdallah-moderiert-deutsche-rugby-wm-hoffnungsspiele/99203858-1-ger-DE/Qualifikation-zur-WM-2019-Aiman-Abdallah-moderiert-deutsche-Rugby-WM-Hoffnungsspiele_image_1024_width.jpg',
     tipAmount: 1,
 }, {
@@ -61,4 +64,4 @@ const Dummyist = [{
 },
 ];
 
-export default DummyList;
+export default dummyList;
