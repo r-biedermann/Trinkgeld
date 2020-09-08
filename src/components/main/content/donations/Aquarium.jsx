@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import './aquarium.scss';
 
 class Aquarium extends PureComponent {
     render() {
