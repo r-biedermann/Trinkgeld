@@ -1,13 +1,13 @@
 .footer {
-    // border: solid yellow 5px;
     z-index: 10;
     width: 100vw;
-    height: 19vw;
-    top: 210px;
+    height: 33vh;
+    top: 67vh;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     color: whitesmoke;
     justify-content:  space-between;
+    padding: 0 2vw;
 }
 
 h1 {
@@ -17,4 +17,15 @@ h1 {
 .list {
     display: flex;
     flex-wrap: wrap;
+    width: 50vw;
+}
+
+.list > * {
+    flex-basis: 20vw;
+}
+
+.qr {
+    background-image: url(chayns.createQRCode('https://pizzaaa.chayns.net/ChaynsSeiten'));
+    width: 50px;
+    height: 50px;
 }

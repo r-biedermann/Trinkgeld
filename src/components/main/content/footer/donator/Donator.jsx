@@ -1,9 +1,13 @@
 import React, { PureComponent } from 'react';
+import './donator.scss';
 
 class Donator extends PureComponent {
     render() {
         return (
-            <p>Name</p>
+            <div className="container">
+                <div className="img"/>
+                <p>Name</p>
+            </div>
         );
     }
 }

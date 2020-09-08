@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import './footer.scss';
-import Donator from './Donator';
+import Donator from './donator/Donator';
 
 class Footer extends PureComponent {
     render() {
@@ -16,6 +16,7 @@ class Footer extends PureComponent {
                     <Donator className="donator"/>
                     <Donator className="donator"/>
                 </div>
+                <div className="qr"/>
             </div>
         );
     }
