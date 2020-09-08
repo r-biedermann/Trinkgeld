@@ -8,7 +8,7 @@ class Footer extends PureComponent {
             <div className="footer">
                 <div className="intro">
                     <h1>Trinkgeld</h1>
-                    <p>Name</p>
+                    <p>Thomas Mayer</p>
                 </div>
                 <div className="supporter">
                     <p>letzte Supporter</p>
