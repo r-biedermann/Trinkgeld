@@ -7,4 +7,14 @@
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     color: whitesmoke;
+    justify-content:  space-between;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
 }
