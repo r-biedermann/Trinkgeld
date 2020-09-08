@@ -14,6 +14,9 @@ class Donations extends PureComponent {
                     <div className="qr">
                         <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image"/>
                     </div>
+                    <div className="position">
+                        <div className="splashtext">Trinkgeld</div>
+                    </div>
                 </div>
                 <Aquarium/>
             </div>
