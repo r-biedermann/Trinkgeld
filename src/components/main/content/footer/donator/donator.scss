@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.img {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: white;
+    position: relative !important;
+    margin-right: 2vh;
+}
+
+.info {
+    position: relative !important;
+    line-height: 2vh;
+    font-size: 0.7em;
+    padding-top: 1vh;
+}
+
+.info > * {
+    margin: 0;
+}

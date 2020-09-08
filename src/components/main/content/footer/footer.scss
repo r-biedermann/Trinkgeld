@@ -1,0 +1,51 @@
+.footer {
+    z-index: 10;
+    width: 100vw;
+    height: 33vh;
+    top: 67vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: whitesmoke;
+    justify-content: flex-end;
+}
+
+.intro {
+    margin: auto;
+    width: 25vw;
+    margin-left: 5vw;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.supporter {
+    width: 50vw;
+    padding: 0 2.5vw;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: space-between;
+    padding: 0;
+}
+
+.list > * {
+    // flex-basis: 25vw;
+    width: 50%;
+    padding-bottom: 3vh;
+}
+
+.qr {
+    width: 20%;
+    margin: auto 0;
+    height: 28vh;
+    text-align: center;
+}
+
+.image {
+    width: 28vh;
+    height: 28vh;
+}
