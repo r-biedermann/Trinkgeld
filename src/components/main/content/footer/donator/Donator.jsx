@@ -6,7 +6,10 @@ class Donator extends PureComponent {
         return (
             <div className="container">
                 <div className="img"/>
-                <p>Name</p>
+                <div className="info">
+                    <p>Name</p>
+                    <p>Betrag</p>
+                </div>
             </div>
         );
     }

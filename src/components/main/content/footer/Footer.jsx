@@ -6,17 +6,22 @@ class Footer extends PureComponent {
     render() {
         return (
             <div className="footer">
-                <div>
+                <div className="intro">
                     <h1>Trinkgeld</h1>
                     <p>Name</p>
                 </div>
-                <div className="list">
-                    <Donator className="donator"/>
-                    <Donator className="donator"/>
-                    <Donator className="donator"/>
-                    <Donator className="donator"/>
+                <div className="supporter">
+                    <p>letzte Supporter</p>
+                    <div className="list">
+                        <Donator/>
+                        <Donator/>
+                        <Donator/>
+                        <Donator/>
+                    </div>
                 </div>
-                <div className="qr"/>
+                <div className="qr">
+                    <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image"/>
+                </div>
             </div>
         );
     }
