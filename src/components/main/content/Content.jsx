@@ -7,7 +7,7 @@ class Content extends PureComponent {
     constructor() {
         super();
         this.state = {
-            isDonationMode: false,
+            isDonationMode: true,
         };
     }
 
