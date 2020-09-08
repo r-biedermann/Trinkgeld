@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import './footer.scss';
 import Donator from './donator/Donator';
+import dummyList from './.../DummyList';
 
 class Footer extends PureComponent {
     render() {
