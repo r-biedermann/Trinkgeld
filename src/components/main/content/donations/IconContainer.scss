@@ -1,0 +1,100 @@
+.containertest{
+    position: absolute;
+    transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5);
+}
+.imgOverlay{
+    position: relative;
+}
+.icon {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    z-index: 4;
+}
+.svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.name{
+    font-size: 12px;
+    fill: white;
+    position: absolute;
+    z-index: 5;
+}
+
+//top middle
+@keyframes path1 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(50vw, 0vh) translate(-50%, -25%) scale(0.5)};
+}
+
+//bottom right
+@keyframes path2 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(100vw, 70vh) translate(-75%, -75%) scale(0.5)};
+}
+
+//bottom left
+@keyframes path3 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 70vh) translate(-25%, -75%) scale(0.5)};
+}
+
+//top right
+@keyframes path4 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(100vw, 0vh) translate(-75%, -25%) scale(0.5)};
+}
+
+//top left
+@keyframes path5 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 0vh) translate(-25%, -25%) scale(0.5)};
+}
+
+//bottom middle
+@keyframes path6 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(50vw, 70vh) translate(-50%, -75%) scale(0.5)};
+}
+
+//center left
+@keyframes path7 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 35vh) translate(-25%, -50%) scale(0.5)};
+}
+
+//center right
+@keyframes path8 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(100vw, 35vh) translate(-75%, -50%) scale(0.5)};
+}
+
+
+//quarters!!!
+//top left
+@keyframes path9 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(25vw, 0vh) translate(-50%, -25%) scale(0.5)};
+}
+
+//bottom right
+@keyframes path10 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(75vw, 70vh) translate(-50%, -75%) scale(0.5)};
+}
+
+//center top right
+@keyframes path11 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(75vw, 0vh) translate(-50%, -25%) scale(0.5)};
+}
+
+//center top right
+@keyframes path12 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(25vw, 70vh) translate(-50%, -75%) scale(0.5)};
+}
