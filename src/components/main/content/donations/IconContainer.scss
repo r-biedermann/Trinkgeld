@@ -1,6 +1,5 @@
 .containertest{
     position: absolute;
-    animation: path11 2.5s linear;
     transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5);
 }
 .imgOverlay{
@@ -88,9 +87,14 @@
     to{transform: translate(75vw, 70vh) translate(-50%, -75%) scale(0.5)};
 }
 
-//center top-right
+//center top right
 @keyframes path11 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(75vw, 70vh) translate(-50%, -75%) scale(0.5)};
+    to{transform: translate(75vw, 0vh) translate(-50%, -25%) scale(0.5)};
 }
 
+//center top right
+@keyframes path12 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(25vw, 70vh) translate(-50%, -75%) scale(0.5)};
+}

@@ -3,7 +3,9 @@ import './IconContainer.scss';
 
 function IconContainer(props) {
     return(
-        <div className="containertest">
+        <div className="containertest" style={{
+            animation: `path${props.index} 120s linear infinite alternate`
+        }}>
             <div className="imgOverlay">
                 <img className="icon" src={props.imgURL}/>
                 <svg viewBox="0 -45 100 100" className="svg">
