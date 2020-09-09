@@ -7,8 +7,25 @@ class Content extends PureComponent {
     constructor() {
         super();
         this.state = {
-            isDonationMode: true,
+            isDonationMode: false,
+            interval: {},
         };
+    }
+
+    componentDidMount() {
+        this.setState({
+            interval: setInterval(this.changeMode, 120000),
+        });
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.state.interval);
+    }
+
+    changeMode() {
+        this.setState((prevState) => ({
+            isDonationMode: !prevState.isDonationMode,
+        }));
     }
 
     render() {
