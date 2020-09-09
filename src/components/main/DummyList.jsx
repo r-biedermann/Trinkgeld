@@ -1,4 +1,4 @@
-const DummyList = [{
+const dummyList = [{
     name: "Bill Gates",
     pictureURL: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bill_Gates_2018.jpg",
     tipAmount: 10,
