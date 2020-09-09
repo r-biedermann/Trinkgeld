@@ -10,11 +10,12 @@ class Content extends PureComponent {
             isDonationMode: false,
             interval: {},
         };
+        this.changeMode.bind(this);
     }
 
     componentDidMount() {
         this.setState({
-            interval: setInterval(this.changeMode, 120000),
+            interval: setInterval(this.changeMode, 10000),
         });
     }
 
@@ -23,17 +24,19 @@ class Content extends PureComponent {
     }
 
     changeMode() {
-        this.setState((prevState) => ({
-            isDonationMode: !prevState.isDonationMode,
-        }));
+        this.setState((prevState) => {
+            return {
+                isDonationMode: !prevState.isDonationMode,
+            };
+        });
     }
 
     render() {
         return (
             <div className="container">
                 {this.state.isDonationMode
-                    ? <Donations/>
-                    : <Footer/>}
+                    ? <Donations />
+                    : <Footer />}
             </div>
         );
     }
