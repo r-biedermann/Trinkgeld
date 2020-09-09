@@ -38,9 +38,10 @@ class Donations extends PureComponent {
                 <div className="header">
                     <div className="artist">
                         <h1>Thomas Mayer</h1>
-                        {/* eslint-disable-next-line max-len */}
+                        {/*
                         <p>Wusstest du schon?</p>
                         {this.state.funfact[this.state.number]}
+                        */}
                     </div>
                     <div className="qr">
                         <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image"/>
