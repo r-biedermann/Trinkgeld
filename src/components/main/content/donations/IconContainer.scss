@@ -29,40 +29,16 @@
     to{transform: translate(50vw, 0vh) translate(-50%, -25%) scale(0.5)};
 }
 
-//bottom right
-@keyframes path2 {
+// top center-right
+@keyframes path11 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(100vw, 70vh) translate(-75%, -75%) scale(0.5)};
-}
-
-//bottom left
-@keyframes path3 {
-    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(0vw, 70vh) translate(-25%, -75%) scale(0.5)};
+    to{transform: translate(75vw, 0vh) translate(-50%, -25%) scale(0.5)};
 }
 
 //top right
 @keyframes path4 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(100vw, 0vh) translate(-75%, -25%) scale(0.5)};
-}
-
-//top left
-@keyframes path5 {
-    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(0vw, 0vh) translate(-25%, -25%) scale(0.5)};
-}
-
-//bottom middle
-@keyframes path6 {
-    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(50vw, 70vh) translate(-50%, -75%) scale(0.5)};
-}
-
-//center left
-@keyframes path7 {
-    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(0vw, 35vh) translate(-25%, -50%) scale(0.5)};
+    to{transform: translate(85vw, 0vh) translate(-75%, -25%) scale(0.5)};
 }
 
 //center right
@@ -71,28 +47,52 @@
     to{transform: translate(100vw, 35vh) translate(-75%, -50%) scale(0.5)};
 }
 
-
-//quarters!!!
-//top left
-@keyframes path9 {
+//bottom right
+@keyframes path2 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(25vw, 0vh) translate(-50%, -25%) scale(0.5)};
+    to{transform: translate(100vw, 70vh) translate(-75%, -75%) scale(0.5)};
 }
 
-//bottom right
+//bottom center-right
 @keyframes path10 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
     to{transform: translate(75vw, 70vh) translate(-50%, -75%) scale(0.5)};
 }
 
-//center top right
-@keyframes path11 {
+//bottom middle
+@keyframes path6 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
-    to{transform: translate(75vw, 0vh) translate(-50%, -25%) scale(0.5)};
+    to{transform: translate(50vw, 70vh) translate(-50%, -75%) scale(0.5)};
 }
 
-//center top right
+//bottom center-left
 @keyframes path0 {
     from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
     to{transform: translate(25vw, 70vh) translate(-50%, -75%) scale(0.5)};
 }
+
+//bottom left
+@keyframes path3 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 70vh) translate(-25%, -75%) scale(0.5)};
+}
+
+//center left
+@keyframes path7 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 35vh) translate(-25%, -50%) scale(0.5)};
+}
+
+//top left
+@keyframes path5 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(0vw, 0vh) translate(-25%, -25%) scale(0.5)};
+}
+
+//top center-left
+@keyframes path9 {
+    from{transform: translate(50vw, 35vh) translate(-50%, -50%) scale(0.5)};
+    to{transform: translate(25vw, 0vh) translate(-50%, -25%) scale(0.5)};
+}
+
+

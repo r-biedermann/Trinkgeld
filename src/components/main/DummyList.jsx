@@ -15,8 +15,8 @@ const dummyList = [{
     pictureURL: 'https://pbs.twimg.com/profile_images/669103856106668033/UF3cgUk4_400x400.jpg',
     tipAmount: 10,
 }, {
-    name: 'Michael Wendler',
-    pictureURL: 'https://www.watson.de/imgdb/068e/Qx,A,67,269,535,593,295,439,118,175/4711249516902430',
+    name: 'Dimitrj Samoljak',
+    pictureURL: 'https://tsimg.cloud/138-12813/49802dee9c4b656305b05ed7e4ce1e90642cb375_w40-h40.jpg',
     tipAmount: 1,
 }, {
     name: 'Joachim Löw',
