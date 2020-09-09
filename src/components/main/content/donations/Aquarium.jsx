@@ -15,6 +15,7 @@ function Aquarium() {
                     index={index}
                 />
             ))}
+            <h1 className="aquariumHeader">Supporter</h1>
         </div>
     );
 }

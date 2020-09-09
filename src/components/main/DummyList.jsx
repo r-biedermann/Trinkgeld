@@ -16,7 +16,7 @@ const dummyList = [{
     tipAmount: 10,
 }, {
     name: 'Dimitrj Samoljak',
-    pictureURL: 'https://tsimg.cloud/138-12813/49802dee9c4b656305b05ed7e4ce1e90642cb375_w40-h40.jpg',
+    pictureURL: 'https://tsimg.cloud/138-12813/49802dee9c4b656305b05ed7e4ce1e90642cb375_w200-h200.jpg',
     tipAmount: 1,
 }, {
     name: 'Joachim Löw',
