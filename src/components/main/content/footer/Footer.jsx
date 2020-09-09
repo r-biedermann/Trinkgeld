@@ -11,10 +11,21 @@ class Footer extends PureComponent {
             dummy2: {},
             dummy3: {},
             dummy4: {},
+            newSupporter: {},
         };
     }
 
     componentDidMount() {
+        this.setState({
+            newSupporter: setInterval(this.setSupporter(), 240000),
+        });
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.state.newSupporter)
+    }
+
+    setSupporter() {
         const index = [];
         for (let i = 0; i < dummyList.length; i++) {
             index.push(i);
@@ -54,7 +65,7 @@ class Footer extends PureComponent {
                         <p>Thomas Mayer</p>
                     </div>
                     <div className="supporter">
-                        <p>letzte Supporter</p>
+                        <p>Supporter</p>
                         <div className="list">
                             <Donator data={this.state.dummy1}/>
                             <Donator data={this.state.dummy2}/>

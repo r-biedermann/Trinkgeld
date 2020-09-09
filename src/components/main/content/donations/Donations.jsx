@@ -9,6 +9,7 @@ class Donations extends PureComponent {
             funfact: [
                 'Thomas Mayer kann mit seinem Daumen 2500kg heben.',
                 'Thomas Mayer wurde in einem Stall geboren, den er selbst gebaut hat.',
+                'Thomas Mayer spielte in der ersten Aufführung von "Antigone" die Hauptrolle.',
             ],
             number: 0,
             interval: {},
@@ -42,13 +43,13 @@ class Donations extends PureComponent {
                         {this.state.funfact[this.state.number]}
                     </div>
                     <div className="qr">
-                        <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image" />
+                        <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image"/>
                     </div>
                     <div className="position">
                         <div className="splashtext">Trinkgeld</div>
                     </div>
                 </div>
-                <Aquarium />
+                <Aquarium/>
             </div>
         );
     }

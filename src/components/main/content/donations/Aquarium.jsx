@@ -7,7 +7,7 @@ function Aquarium() {
     return (
         <div className="aquarium">
             {DummyList.map((e, index) => (
-                <IconContainer 
+                <IconContainer
                     imgURL={e.pictureURL}
                     name={e.name}
                     tipAmount={e.tipAmount}
