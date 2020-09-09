@@ -9,6 +9,7 @@ class Donations extends PureComponent {
                 <div className="header">
                     <div className="artist">
                         <h1>Thomas Mayer</h1>
+                        {/* eslint-disable-next-line max-len */}
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
                     </div>
                     <div className="qr">
