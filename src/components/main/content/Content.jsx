@@ -4,19 +4,15 @@ import Donations from './donations/Donations';
 import Footer from './footer/Footer';
 
 class Content extends PureComponent {
-    constructor() {
-        super();
-        this.state = {
-            isDonationMode: true,
-        };
-    }
-
     render() {
         return (
-            <div className="container">
-                {this.state.isDonationMode
-                    ? <Donations/>
-                    : <Footer/>}
+            <div className="diashow">
+                <figure className="page1">
+                    <Donations/>
+                </figure>
+                <figure className="page2">
+                    <Footer/>
+                </figure>
             </div>
         );
     }
