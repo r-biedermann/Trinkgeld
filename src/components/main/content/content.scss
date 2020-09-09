@@ -5,9 +5,19 @@
 .page1 {
     margin: 0;
     position: absolute;
+    animation: diashow 240s infinite 120s
 }
 
 .page2 {
     margin: 0;
     position: absolute;
+    animation: diashow 240s infinite 
+}
+
+@keyframes diashow {
+    0% {opacity: 1}
+    1% {opacity: 0}
+    50% {opacity: 0}
+    51% {opacity: 1}
+    100% {opacity: 1}
 }
