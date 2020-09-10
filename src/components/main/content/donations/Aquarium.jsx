@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react';
+import React, {useState, useEffect} from 'react';
 import './aquarium.scss';
-import DummyList from '../../DummyList.jsx';
-import IconContainer from './IconContainer.jsx';
+import DummyList from '../../DummyList';
+import IconContainer from './IconContainer';
 
 function Aquarium() {
     return (
