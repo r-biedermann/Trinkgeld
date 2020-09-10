@@ -36,10 +36,10 @@ const dummyList = [{
     pictureURL: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg',
     tipAmount: 10,
 }, {
-    name: 'Aiman Abdallah',
+    name: 'Luzie Bauch',
     // eslint-disable-next-line max-len
-    pictureURL: 'https://www.muensterschezeitung.de/var/storage/images/wn/startseite/sport/weltsport/sonstige/3538034-qualifikation-zur-wm-2019-aiman-abdallah-moderiert-deutsche-rugby-wm-hoffnungsspiele/99203858-1-ger-DE/Qualifikation-zur-WM-2019-Aiman-Abdallah-moderiert-deutsche-Rugby-WM-Hoffnungsspiele_image_1024_width.jpg',
-    tipAmount: 1,
+    pictureURL: 'https://tsimg.cloud/77896-07256/0bdd6e260541b9d081fb71244870b06f0dbae570_fwebp-w1000.jpg',
+    tipAmount: 13.13,
 }, {
     name: 'Jahn Böhmermann',
     pictureURL: 'https://images.derstandard.at/img/2020/09/05/bohmermann.jpg?w=750&s=b3f50675',
