@@ -41,9 +41,9 @@ const dummyList = [{
     pictureURL: 'https://tsimg.cloud/77896-07256/0bdd6e260541b9d081fb71244870b06f0dbae570_fwebp-w1000.jpg',
     tipAmount: 13.13,
 }, {
-    name: 'Jahn Böhmermann',
-    pictureURL: 'https://images.derstandard.at/img/2020/09/05/bohmermann.jpg?w=750&s=b3f50675',
-    tipAmount: 1,
+    name: 'Jana Walfort',
+    pictureURL: 'https://tsimg.cloud/77896-07352/28e5c98114745ba5d0c44cebcb0e61a68101810c_fwebp-w1000.jpg',
+    tipAmount: 70.07,
 }, {
     name: 'Neil Armstrong',
     pictureURL: 'https://img.welt.de/img/vermischtes/mobile112442892/7242503027-ci102l-w1024/Jahresrueckblick-Todesfaelle-2012.jpg',

@@ -43,6 +43,14 @@ function Aquarium() {
                     <h2>{`hat ${parseFloat(sup.tipAmount).toFixed(2)} £ gespendet`}</h2>
                 </div>
             </div>
+            {dummyList.map((m) => {
+                <div 
+                    key={m.name}
+                    className="money"
+                    style={{left: `${getRndm(100)}vw`}}
+                />
+            })}
+            <div className="money"/>
         </div>
     );
 }

@@ -77,3 +77,21 @@ h2 {
     7% {transform: translateX(0vw) skewX(5deg)}
     7.1% {transform: translateX(0vw)}
 }
+
+.money {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/380/828/original/pound-vector-icon.jpg');
+    width: 5vw;
+    height: 2.5vw;
+    background-size: cover;
+    animation-name: confetti;
+    position: absolute;
+    animation-duration: 5s;
+}
+
+@keyframes confetti {
+    0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
+    25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw,14vh); }
+    50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw,42vh); }
+    75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,56vh); }
+    100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,77vh); }
+  }
