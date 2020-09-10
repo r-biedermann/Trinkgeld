@@ -17,7 +17,7 @@ const dummyList = [{
 }, {
     name: 'Dimitrj Samoljak',
     pictureURL: 'https://tsimg.cloud/138-12813/49802dee9c4b656305b05ed7e4ce1e90642cb375_w200-h200.jpg',
-    tipAmount: 1,
+    tipAmount: 420.69,
 }, {
     name: 'Joachim Löw',
     // eslint-disable-next-line max-len
