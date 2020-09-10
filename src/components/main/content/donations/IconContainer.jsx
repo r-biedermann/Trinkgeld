@@ -7,6 +7,7 @@ function IconContainer(props) {
             className="containertest"
             style={{
                 animation: `path${props.index} 120s ease-in-out infinite alternate`,
+
             }}
         >
             <div className="imgOverlay">

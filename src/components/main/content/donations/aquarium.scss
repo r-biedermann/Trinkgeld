@@ -1,6 +1,11 @@
+h2 {
+    color: whitesmoke;
+}
+
 .aquarium{
     height: 70vh;
 }
+
 .aquariumHeader{
     position: absolute;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
@@ -17,4 +22,36 @@
     2%{transform: translateY(30vh) scale(0)}
     5%{transform: translateY(30vh) scale(1)}
     100%{transform: translateY(30vh) scale(1)}
+}
+
+.newDonation {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    top: 40vh;
+    left: 15vw;
+    animation: donate 120s infinite alternate
+}
+
+.donatorImg {
+    height: 40vh;
+    width: 40vh;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 3vw;
+}
+
+@keyframes donate {
+    0% {transform: scale(0.1); opacity: 0}
+    1% {transform: scale(1); opacity: 1}
+    5% {opacity: 1}
+    5.5% {opacity: 0; transform: scale(1)}
+    100% {transform: scale(0.1); opacity: 0}
+}
+
+.text {
+    text-shadow:  1px  1px 2px black,
+                  1px -1px 2px black,
+                 -1px  1px 2px black,
+                 -1px -1px 2px black;
 }
