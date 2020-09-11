@@ -54,7 +54,7 @@ function Aquarium() {
                 />
                 <div className="text">
                     <h1>{sup.name}</h1>
-                    <h2>{`hat ${parseFloat(sup.tipAmount).toFixed(2)} £ gespendet`}</h2>
+                    <h2>{`hat £ ${parseFloat(sup.tipAmount).toFixed(2)} gespendet`}</h2>
                 </div>
             </div>
 

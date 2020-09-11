@@ -23,7 +23,7 @@ const dummyList = [{
     pictureURL: 'https://www.dw.com/image/53296330_401.jpg',
     tipAmount: 7.50,
 }, {
-    name: 'Gaben Newell',
+    name: 'Gabe Newell',
     pictureURL: 'https://images.derstandard.at/img/2019/07/03/Valve.png?w=750&s=afcbbba8',
     tipAmount: 2,
 }, {

@@ -7,7 +7,7 @@ function Donator(props) {
             <div className="img" style={{ backgroundImage: `url(${props.data.pictureURL})` }}/>
             <div className="info">
                 <p>{props.data.name}</p>
-                <p>{`${parseFloat(props.data.tipAmount).toFixed(2)} £`}</p>
+                <p>{`£ ${parseFloat(props.data.tipAmount).toFixed(2)}`}</p>
             </div>
         </div>
     );
