@@ -62,10 +62,10 @@ class Footer extends PureComponent {
                 <div className="footer">
                     <div className="intro">
                         <h1>Trinkgeld</h1>
-                        <p>Thomas Mayer</p>
+                        <h3>Thomas Mayer</h3>
                     </div>
                     <div className="supporter">
-                        <p>Supporter</p>
+                        <h3>Supporter</h3>
                         <div className="list">
                             <Donator data={this.state.dummy1}/>
                             <Donator data={this.state.dummy2}/>
