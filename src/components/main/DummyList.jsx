@@ -5,28 +5,27 @@ const dummyList = [{
 }, {
     name: 'Barack Obama',
     pictureURL: 'https://convent.de/content/uploads/2019/07/Barack_Obama-580x580.jpg',
-    tipAmount: 5,
+    tipAmount: 8,
 }, {
     name: 'Usain Bolt',
     pictureURL: 'https://tmssl.akamaized.net/images/portrait/originals/611239-1535449084.jpg',
     tipAmount: 2.5,
 }, {
-    name: 'Jeff Bezos',
-    pictureURL: 'https://pbs.twimg.com/profile_images/669103856106668033/UF3cgUk4_400x400.jpg',
+    name: 'Hannah Merchel',
+    pictureURL: 'https://tsimg.cloud/135-80619/3f010c4dcb8ac12240ecf30680d35aeffc15d519_w200-h200.jpg',
     tipAmount: 10,
 }, {
     name: 'Dimitrj Samoljak',
     pictureURL: 'https://tsimg.cloud/138-12813/49802dee9c4b656305b05ed7e4ce1e90642cb375_w200-h200.jpg',
     tipAmount: 420.69,
 }, {
-    name: 'Joachim Löw',
-    // eslint-disable-next-line max-len
-    pictureURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Jogi_L%C3%B6w_850_1386.jpg/1200px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Jogi_L%C3%B6w_850_1386.jpg',
-    tipAmount: 1,
+    name: 'Angela Merkel',
+    pictureURL: 'https://www.dw.com/image/53296330_401.jpg',
+    tipAmount: 7.50,
 }, {
     name: 'Gaben Newell',
     pictureURL: 'https://images.derstandard.at/img/2019/07/03/Valve.png?w=750&s=afcbbba8',
-    tipAmount: 10,
+    tipAmount: 2,
 }, {
     name: 'Zeus',
     pictureURL: 'https://www.alaturka.info/images/geschichte/zeus.jpg',

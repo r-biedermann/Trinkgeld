@@ -19,7 +19,6 @@ class App extends PureComponent {
             if (e !== this.state.windowHeight) {
                 this.setState({ windowHeight: e });
             }
-            console.log(e);
         }, true);
         return () => chayns.removeWindowMetricsListener(retVal);
     }
