@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './aquarium.scss';
 import dummyList from '../../DummyList';
 import IconContainer from './IconContainer';
+import Money from './Money';
 
 function Aquarium() {
     const [sup, setSup] = useState({});
     const [donateInterval, setDonateInterval] = useState({});
+    const [cash, setCash] = useState([]);
 
     function getRndm(i) {
         return Math.floor(Math.random() * i);
@@ -19,6 +21,11 @@ function Aquarium() {
     useEffect(() => {
         donate();
         setDonateInterval(setInterval(donate(), 240000));
+        const index = [];
+        for (let i = 0; i < 50; i++) {
+            index.push(i);
+        }
+        setCash(index);
     }, []);
 
     return (
@@ -33,6 +40,13 @@ function Aquarium() {
                 />
             ))}
             <h1 className="aquariumHeader">Supporter</h1>
+            <div className="makeItRain">
+                {cash.map((m) => (
+                    <Money
+                        key={m}
+                    />
+                ))}
+            </div>
             <div className="newDonation">
                 <div
                     className="donatorImg"
@@ -43,14 +57,7 @@ function Aquarium() {
                     <h2>{`hat ${parseFloat(sup.tipAmount).toFixed(2)} £ gespendet`}</h2>
                 </div>
             </div>
-            {dummyList.map((m) => {
-                <div 
-                    key={m.name}
-                    className="money"
-                    style={{left: `${getRndm(100)}vw`}}
-                />
-            })}
-            <div className="money"/>
+
         </div>
     );
 }
