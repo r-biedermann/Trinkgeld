@@ -22,7 +22,7 @@ class Footer extends PureComponent {
     }
 
     componentWillUnmount() {
-        clearInterval(this.state.newSupporter)
+        clearInterval(this.state.newSupporter);
     }
 
     setSupporter() {
