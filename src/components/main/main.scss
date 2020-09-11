@@ -7,7 +7,7 @@
     height: 100vh; 
     width: 100vw;
     animation-name: autoplay;
-    animation-duration: 120s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     opacity: 0;
@@ -21,17 +21,17 @@
 
 .background2 {
     background-image: url('https://tappqa.tobit.com/training/2020/RB/images/Darts.png');
-    animation-delay: 30s;
+    animation-delay: 15s;
 }
 
 .background3 {
     background-image: url('https://tappqa.tobit.com/training/2020/RB/images/Draußen.png');
-    animation-delay: 60s;
+    animation-delay: 30s;
 }
 
 .background4 {
     background-image: url('https://tappqa.tobit.com/training/2020/RB/images/Show.png');
-    animation-delay: 90s;
+    animation-delay: 45s;
 }
 
 @keyframes autoplay {
