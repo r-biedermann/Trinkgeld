@@ -3,45 +3,12 @@ import Aquarium from './Aquarium';
 import './donations.scss';
 
 class Donations extends PureComponent {
-    constructor() {
-        super();
-        this.state = {
-            funfact: [
-                'Thomas Mayer kann mit seinem Daumen 2500kg heben.',
-                'Thomas Mayer wurde in einem Stall geboren, den er selbst gebaut hat.',
-                'Thomas Mayer spielte in der ersten Aufführung von "Antigone" die Hauptrolle.',
-            ],
-            number: 0,
-            interval: {},
-        };
-    }
-
-    componentDidMount() {
-        this.setState({
-            interval: setInterval(this.getNumber(), 240000),
-        });
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.state.interval);
-    }
-
-    getNumber() {
-        this.setState({
-            number: Math.floor(Math.random() * this.state.funfact.length),
-        });
-    }
-
     render() {
         return (
             <div>
                 <div className="header">
                     <div className="artist">
                         <h1>Thomas Mayer</h1>
-                        {/*
-                        <p>Wusstest du schon?</p>
-                        {this.state.funfact[this.state.number]}
-                        */}
                     </div>
                     <div className="qr">
                         <img src="https://tappqa.tobit.com/training/2020/RB/images/qrCode.png" alt="" className="image"/>
