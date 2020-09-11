@@ -37,7 +37,6 @@ const dummyList = [{
     tipAmount: 10,
 }, {
     name: 'Luzie Bauch',
-    // eslint-disable-next-line max-len
     pictureURL: 'https://tsimg.cloud/77896-07256/0bdd6e260541b9d081fb71244870b06f0dbae570_fwebp-w1000.jpg',
     tipAmount: 13.13,
 }, {
