@@ -35,6 +35,7 @@ h2 {
     top: 40vh;
     left: 15vw;
     animation: donate 120s infinite alternate;
+    z-index: -1;
 }
 
 .donatorImg {
@@ -44,6 +45,7 @@ h2 {
     border-radius: 50%;
     margin-right: 3vw;
     animation: spin 1s infinite cubic-bezier(.8,.5,.2,.5);
+    z-index: 10;
 }
 
 @keyframes spin {
@@ -78,20 +80,14 @@ h2 {
     7.1% {transform: translateX(0vw)}
 }
 
-// .money {
-//     background-image: url('https://static.vecteezy.com/system/resources/previews/000/380/828/original/pound-vector-icon.jpg');
-//     width: 5vw;
-//     height: 2.5vw;
-//     background-size: cover;
-//     animation-name: confetti;
-//     position: absolute;
-//     animation-duration: 5s;
-// }
+.makeItRain {
+    animation: disappear 240s infinite;
+    z-index: 100;
+}
 
-// @keyframes confetti {
-//     0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
-//     25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw,14vh); }
-//     50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw,42vh); }
-//     75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,56vh); }
-//     100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,77vh); }
-//   }
+@keyframes disappear {
+    0% {opacity: 1}
+    2.5% {opacity: 1}
+    2.7% {opacity: 0}
+    100% {opacity: 0}
+}
